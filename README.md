@@ -8,6 +8,15 @@ Cài đặt thư viện [angular-oauth2-oidc](https://www.npmjs.com/package/angu
 npm install angular-oauth2-oidc --save
 ```
 
+## Structure
+
+```tree
+├───app
+│   └───home
+├───assets
+└───environments
+```
+
 ## AppModule
 
 ```typescript
