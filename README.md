@@ -120,5 +120,8 @@ export class HomeComponent implements OnInit {
 </div>
 ```
 
+![alt text](https://github.com/id1945/angular12-wso2-is-sso/login.PNG?raw=true)
+
+![alt text](https://github.com/id1945/angular12-wso2-is-sso/logout.PNG?raw=true)
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
