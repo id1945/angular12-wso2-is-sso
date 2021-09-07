@@ -3,7 +3,21 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  sso: {
+    "clientId": "nPzsAOuuadNBF4sZUC4YAre43nca",
+    "issuer": "https://sso.tcmotor.vn/oauth2/token", 
+    "redirectUri": "http://localhost:4200/callback",
+    "loginUrl":  "https://sso.tcmotor.vn/oauth2/authorize",
+    "tokenEndpoint": "https://sso.tcmotor.vn/oauth2/token",
+    "userinfoEndpoint":  "https://sso.tcmotor.vn/oauth2/userinfo",
+    "requireHttps": false,
+    "requestAccessToken": true,
+    "disableAtHashCheck": false,
+    "showDebugInformation": true,
+    "scope": "openid",
+    "responseType": "id_token token"
+  }
 };
 
 /*
